@@ -19,10 +19,10 @@ public class Registration extends BaseTest {
         driver.get("https://example.com/registration");
 
         // Fill in the registration form
-        driver.findElement(By.name("name")).sendKeys("Sitara");
+        driver.findElement(By.name("name")).sendKeys("Poulomi");
         driver.findElement(By.name("gender")).click();
         driver.findElement(By.name("dob")).sendKeys("01/01/2001");
-        driver.findElement(By.name("email")).sendKeys("sitara@gmail.com");
+        driver.findElement(By.name("email")).sendKeys("Poulomi@gmail.com");
         driver.findElement(By.name("phone")).sendKeys("1234567890");
         driver.findElement(By.name("password")).sendKeys("Password123");
         driver.findElement(By.name("confirmPassword")).sendKeys("Password123");
